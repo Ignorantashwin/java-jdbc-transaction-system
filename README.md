@@ -1,7 +1,10 @@
-# ☕ Java JDBC Transaction System
+# ♨️ Java JDBC Transaction System
 
 A **Java JDBC–based transaction handling system** demonstrating 🔐 **ACID properties**, manual transaction control, ⚠️ deadlock prevention, and 🧾 transaction history logging using MySQL.
 
+---
+**Author:** Ashwin  
+**Tech Stack:** Java • JDBC • MySQL 
 ---
 
 ## 🔐 Configuration (Security)
@@ -52,6 +55,6 @@ export DB_PASSWORD="password321"
 
 ---
 
-## 👤 Author
-**Ashwin**
+
+
 
