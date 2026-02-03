@@ -1,0 +1,13 @@
+# Compiled class files
+*.class
+bin/
+
+# VS Code
+.vscode/
+
+# Libraries
+lib/*.jar
+
+# OS files
+.DS_Store
+
