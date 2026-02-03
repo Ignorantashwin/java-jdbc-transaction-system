@@ -4,6 +4,19 @@ A **Java JDBC–based transaction handling system** demonstrating 🔐 **ACID pr
 
 ---
 
+## 🔐 Configuration (Security)
+
+Database credentials are **not hardcoded** in the source code.
+
+Set the following environment variables before running the application:
+
+```bash
+export DB_URL="jdbc:mysql://localhost:3306/banking"
+export DB_USERNAME="root123"
+export DB_PASSWORD="password321"
+
+---
+
 ## ✨ Features
 - 💸 Fund transfer between accounts
 - 🔄 Manual transaction control (`commit` / `rollback`)
@@ -41,3 +54,4 @@ A **Java JDBC–based transaction handling system** demonstrating 🔐 **ACID pr
 
 ## 👤 Author
 **Ashwin**
+
