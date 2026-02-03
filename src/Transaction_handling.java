@@ -5,10 +5,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Transaction_handling {
-    private static final String url = "jdbc:mysql://localhost:3306/lenden";
-    private static final String username = "root";
-    private static final String password = "password";
+public class Transaction_handling { 
+    private static final String url = System.getenv("DB_URL");
+private static final String username = System.getenv("DB_USERNAME");
+private static final String password = System.getenv("DB_PASSWORD");
     
     public static void main(String[] args) throws SQLException {
          String debitquery = "UPDATE accounts SET balance = balance - ? WHERE account_number = ?";
